@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:src="@drawable/img_cancle"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="20dp"
+        android:text="@string/pickerview_cancel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+    <Button
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|right"
+        android:paddingRight="20dp"
+        android:text="@string/pickerview_submit"
+        android:textColor="#FF9D3D"
+        android:textSize="@dimen/pickerview_topbar_btn_textsize" />
+</RelativeLayout>
